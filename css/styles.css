@@ -1,0 +1,172 @@
+/*
+* {
+    border: 1px red solid;
+}     
+*/
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-size: 2.5rem;
+}
+
+.sub-head {
+    font-weight: normal;
+}
+
+span {
+    text-decoration: underline;
+}
+
+h3,
+a {
+    color: #11999E;
+}
+
+p {
+    color:#40514E;
+}
+
+.intro {
+    background-color: #eaf6f6;
+    padding-top: 100px;
+    position: relative;
+}
+
+.first-cloud {
+ position: relative;
+ left:400px;
+ bottom: 70px;
+}
+
+.second-cloud {
+    position: absolute;
+    left: 200px;
+}
+
+.headers {
+    padding-bottom: 20px;
+}
+
+
+
+/**********MAIN CONTAINER**************/
+
+.main-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/**********SECTION HELLO**************/
+
+.hello {
+    margin: 50px auto 100px;
+    
+}
+
+hr {
+    border-style: dotted none none;
+    border-width: 5px;
+    width: 10%;
+    color: #eaf6f6;
+
+}
+
+/**********SECTION MY-SKILLS**************/
+
+
+.first-skill {
+    margin: 50px 0 150px;
+}
+
+
+.computer {
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+}
+
+.chilli {
+    width: 25%;
+    float: right;
+    margin-left: 20px;
+}
+
+.line-break {
+    margin: 100px auto 50px;
+    width: 5%;
+}
+
+
+/*********** SECTION CONTACT ME***************/
+
+.contact-me {
+    width: 50%;
+    margin: 0 auto 50px;
+}
+
+footer {
+    background-color: #66BFBF;
+    padding: 20px 0;
+}
+
+a {
+    margin: 20px;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #eaf6f6;
+}
+
+
+
+
+
+
+.BUTTON_QQV {
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    height: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    width: 159px;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 20px;
+    background-color: #2F7BF7;
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_QQV:hover {
+    background: #66BFBF;
+    border: solid #337FED 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
